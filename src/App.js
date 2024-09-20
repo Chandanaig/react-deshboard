@@ -1,23 +1,45 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <aside className="sidebar">
+        <div className="logo">
+          <h1> <b>FinCheck</b></h1>
+        </div>
+        <nav>
+          <ul>
+            <li>Dashboard</li>
+            <li>Invest</li>
+            <li>Transactions</li>
+            <li>Cards</li>
+            <li>Statistics</li>
+          </ul>
+        </nav>
+        <div className="settings">
+          <p>Settings</p>
+          <p>Log-out</p>
+        </div>
+      </aside>
+      <main className="content">
+        <header className="header">
+          <div className="welcome">
+            <p><b>Hi Adaline Horton, Welcome back!</b></p>
+          </div>
+          <div className="date-search">
+            <span className="date">Jul 20, 2024</span>
+            <input type="text" placeholder="Type to search" />
+          </div>
+          <div className="profile">
+
+            <span>Adaline Horton</span>
+          </div>
+        </header>
+        <section className="dashboard-content">
+          {/* Dashboard content goes here */}
+        </section>
+      </main>
     </div>
   );
 }
