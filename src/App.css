@@ -111,7 +111,7 @@ input {
 
 .dashboard-content {
   margin-top: 20px;
-  background-color: #ffffff;
+  background-color: #f5f7fa;
   border-radius: 10px;
   height: calc(100% - 80px); /* Adjust based on header height */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -183,18 +183,19 @@ input {
 }
 
 .chart,
-.activity,
+.activity ,
 .transaction-history,
+
 .goals {
   background-color: #fff;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  width: 48%;
+
 }
 
 .transaction-history table {
-  width: 100%;
+  width:100px;
   border-collapse: collapse;
 }
 

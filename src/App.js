@@ -22,7 +22,7 @@ function App() {
         <div className="settings">
           <p>Settings</p>
           <p>Log-out</p>
-        </div>
+      </div>
       </aside>
       <main className="content">
         <header className="header">
