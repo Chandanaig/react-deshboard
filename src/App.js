@@ -1,5 +1,7 @@
 import React from "react";
+import Dashboard from "./components/Dashboard";
 import "./App.css";
+
 
 function App() {
   return (
@@ -37,7 +39,7 @@ function App() {
           </div>
         </header>
         <section className="dashboard-content">
-          {/* Dashboard content goes here */}
+          <Dashboard/>
         </section>
       </main>
     </div>
